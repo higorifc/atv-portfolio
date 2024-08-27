@@ -96,6 +96,9 @@ section.banner button{
     text-align: center;
     margin: 2vw 2vw 0 2vw ;
 }
+/*==================
+    rt-post
+==================*/
 section.rt-post{
     background-color: #dad2d2;
     padding: 2vw 1vw 2vw 1vw;
@@ -119,9 +122,45 @@ section.rt-post ul li p{
     margin: 1.5vw 0 1.5vw 0;
     
 }
-
-
-
+/*==================
+    ft-works
+==================*/
+section.ft-works{
+    padding: 2vw 0vw 2vw 0vw;
+}
+section.ft-works div{
+    font-size: 1;
+}
+section.ft-works >div{
+    display: flex;
+}
+section.ft-works h2{
+    font-weight: 100;
+    font-size: 221px 60px 1106px;
+    margin: 20px 0 20px;
+}
+section.ft-works div h3{
+    margin: 25px 0 20px 0;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44.06px;
+}
+section.ft-works div p span{
+    background-color: #142850;
+    color: white;
+    border-radius: 20px ;
+    padding: 2px 5px 2px 5px;
+    font-weight: bold;
+}
+section.ft-works div p.dash{
+    color: #8695A4;
+    margin: 0 0 20px ;
+    font-weight: 700;
+    font-size: 20px;
+}
+section.ft-works div p{
+    font-size: 20px;
+}
 
  /*==================
     Formatação de rodapé
@@ -129,6 +168,7 @@ section.rt-post ul li p{
 footer{
     text-align: center;
     padding: 1vw 0 2vw 0 ;
+    margin-top: 4vw;
 }
 footer nav ul{
     display: flex;
